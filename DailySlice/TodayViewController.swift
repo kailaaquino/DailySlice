@@ -1,21 +1,23 @@
 //
-//  SubtaskCell.swift
+//  TodayViewController.swift
 //  DailySlice
 //
-//  Created by Kaila Aquino on 8/4/25.
+//  Created by Kaila Aquino on 8/5/25.
 //
 
 import UIKit
 
-class SubtaskCell: UITableViewCell {
+class TodayViewController: UITableViewCell {
 
-    @IBOutlet weak var subtaskCompleteButton: UIButton!
-    @IBOutlet weak var subtaskTitle: UILabel!
+    @IBOutlet weak var quoteLabel: UILabel!
+    
+    @IBOutlet weak var todaysSubtaskLabel: UILabel!
+    
+    @IBOutlet weak var todaysGoalLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-      
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Subtask {
+struct Subtask: Codable {
     var title: String
     var isComplete: Bool
 }

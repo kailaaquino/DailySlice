@@ -15,7 +15,31 @@ class GoalCell: UITableViewCell {
     
     @IBOutlet weak var viewTaskButton: UIButton!
     
-    @IBAction func completeButtonTapped(_ sender: Any) {
+    var onCompleteButtonTapped: ((Goal) -> Void)?
+
+    var goal: Goal!
+
+    
+    @IBAction func completeButtonTapped(_ sender: UIButton) {
+        goal.isComplete = !goal.isComplete
+        update(with: goal)
+        onCompleteButtonTapped?(goal)
+    }
+    
+    func configure(with goal: Goal, onCompleteButtonTapped: ((Goal) -> Void)?){
+        self.goal = goal
+        self.onCompleteButtonTapped = onCompleteButtonTapped
+        
+        completeButton.setImage(UIImage(systemName: "circle"), for: .normal)
+        completeButton.setImage(UIImage(systemName: "checkmark.circle.fill"), for: .selected)
+
+        update(with: goal)
+    }
+    
+    private func update(with goal: Goal){
+        goalTitle.text = goal.title
+        completeButton.isSelected = goal.isComplete
+        completeButton.tintColor = goal.isComplete ? .systemBlue: .tertiaryLabel
     }
     
     override func awakeFromNib() {

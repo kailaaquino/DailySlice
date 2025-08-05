@@ -11,10 +11,10 @@ class GoalsViewController: UIViewController, UITableViewDataSource, UITableViewD
 
     @IBOutlet weak var goalsTableView: UITableView!
     
-    let sampleGoals = [
+    var sampleGoals = [
         Goal(title: "Workout", isComplete: false),
             Goal(title: "Study", isComplete: false),
-            Goal(title: "Drink water", isComplete: true)
+            Goal(title: "Drink water", isComplete: false)
        ]
     
     override func viewDidLoad() {
@@ -33,11 +33,17 @@ class GoalsViewController: UIViewController, UITableViewDataSource, UITableViewD
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let goal = sampleGoals[indexPath.row]
-               let cell = tableView.dequeueReusableCell(withIdentifier: "GoalCell", for: indexPath) as! GoalCell
-
-               cell.goalTitle.text = goal.title
-               cell.completeButton.isSelected = goal.isComplete
-               cell.completeButton.tintColor = goal.isComplete ? .systemBlue : .tertiaryLabel
+        let cell = tableView.dequeueReusableCell(withIdentifier: "GoalCell", for: indexPath) as! GoalCell
+        
+//        cell.goalTitle.text = goal.title
+//        cell.completeButton.isSelected = goal.isComplete
+//        cell.completeButton.tintColor = goal.isComplete ? .systemBlue : .tertiaryLabel
+        
+        cell.configure(with: goal) {[weak self] updatedGoal in
+            guard let self = self else {return}
+            self.sampleGoals[indexPath.row] = updatedGoal
+            self.goalsTableView.reloadRows(at: [indexPath], with: .automatic )
+        }
         return cell
     }
 
