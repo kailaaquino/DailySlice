@@ -77,10 +77,10 @@ Daily Slice is a goal achieving assistant that aims to help reduce the overwhelm
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![Hand Wireframe](images/hand_wireframe.png)
 
 ### [BONUS] Digital Wireframes & Mockups
+
 
 ### [BONUS] Interactive Prototype
 
