@@ -80,6 +80,8 @@ Daily Slice is a goal achieving assistant that aims to help reduce the overwhelm
 ![Hand Wireframe](images/hand_wireframe.png)
 
 ### [BONUS] Digital Wireframes & Mockups
+![Figma Wireframe](images/figma_wireframe.png)
+
 
 
 ### [BONUS] Interactive Prototype
