@@ -1,7 +1,14 @@
-Original App Design Project - README Template
-===
-
 # Daily Slice
+
+## WIP Demo 
+<div>
+    <a href="https://www.loom.com/share/ee139ca4de4d44f7927bda2ea3dd4c81">
+      <p>Loom Message - 5 August 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/ee139ca4de4d44f7927bda2ea3dd4c81">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/ee139ca4de4d44f7927bda2ea3dd4c81-cf9c61c5ee5a41d8-full-play.gif">
+    </a>
+  </div>
 
 ## Table of Contents
 
