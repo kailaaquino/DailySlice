@@ -47,17 +47,19 @@ Daily Slice is a goal achieving assistant that aims to help reduce the overwhelm
 
 ### 2. Screen Archetypes
 
-- [ ] Tab: List of large goals 
+- [X] Tab: List of large goals 
 * User can view their large goals 
 * User can add/delete larger goals
 * User can mark their task as complete
+* Note: only sample goals are visible, WIP
 
 - [ ] Detail: List of sub tasks associated with a larger goal 
 * User can add/delete sub tasks to each large goal
 * User can mark their task as complete
 
-- [ ] Tab: Daily task
+- [X] Tab: Daily task
 * User can view their daily suggested task
+* Note: UI completed, WIP
 
 
 ### 3. Navigation
