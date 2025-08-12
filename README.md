@@ -1,7 +1,14 @@
-Original App Design Project - README Template
-===
-
 # Daily Slice
+
+## WIP Demo 
+<div>
+    <a href="https://www.loom.com/share/ee139ca4de4d44f7927bda2ea3dd4c81">
+      <p>Loom Message - 5 August 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/ee139ca4de4d44f7927bda2ea3dd4c81">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/ee139ca4de4d44f7927bda2ea3dd4c81-cf9c61c5ee5a41d8-full-play.gif">
+    </a>
+  </div>
 
 ## Table of Contents
 
@@ -47,17 +54,19 @@ Daily Slice is a goal achieving assistant that aims to help reduce the overwhelm
 
 ### 2. Screen Archetypes
 
-- [ ] Tab: List of large goals 
+- [X] Tab: List of large goals 
 * User can view their large goals 
 * User can add/delete larger goals
 * User can mark their task as complete
+* Note: only sample goals are visible, WIP
 
 - [ ] Detail: List of sub tasks associated with a larger goal 
 * User can add/delete sub tasks to each large goal
 * User can mark their task as complete
 
-- [ ] Tab: Daily task
+- [X] Tab: Daily task
 * User can view their daily suggested task
+* Note: UI completed, WIP
 
 
 ### 3. Navigation
@@ -77,10 +86,12 @@ Daily Slice is a goal achieving assistant that aims to help reduce the overwhelm
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![Hand Wireframe](images/hand_wireframe.png)
 
 ### [BONUS] Digital Wireframes & Mockups
+![Figma Wireframe](images/figma_wireframe.png)
+
+
 
 ### [BONUS] Interactive Prototype
 
