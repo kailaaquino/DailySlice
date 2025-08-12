@@ -1,14 +1,16 @@
 # Daily Slice
 
-## WIP Demo 
+## Demo 
 <div>
-    <a href="https://www.loom.com/share/ee139ca4de4d44f7927bda2ea3dd4c81">
-      <p>Loom Message - 5 August 2025 - Watch Video</p>
+    <a href="https://www.loom.com/share/e87e8b9771b94f1c8c2a7a7eb7a2f61d">
+      <p>Loom Message - 12 August 2025 - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/ee139ca4de4d44f7927bda2ea3dd4c81">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/ee139ca4de4d44f7927bda2ea3dd4c81-cf9c61c5ee5a41d8-full-play.gif">
+    <a href="https://www.loom.com/share/e87e8b9771b94f1c8c2a7a7eb7a2f61d">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e87e8b9771b94f1c8c2a7a7eb7a2f61d-fef9ec79d2f96f51-full-play.gif">
     </a>
   </div>
+
+  This app is still a work in progress that requires more iterations to have the idea fully developed
 
 ## Table of Contents
 
@@ -60,9 +62,10 @@ Daily Slice is a goal achieving assistant that aims to help reduce the overwhelm
 * User can mark their task as complete
 * Note: only sample goals are visible, WIP
 
-- [ ] Detail: List of sub tasks associated with a larger goal 
+- [X] Detail: List of sub tasks associated with a larger goal 
 * User can add/delete sub tasks to each large goal
 * User can mark their task as complete
+* Note: page is only visible, only sample cells for subtasks currently
 
 - [X] Tab: Daily task
 * User can view their daily suggested task
@@ -94,6 +97,8 @@ Daily Slice is a goal achieving assistant that aims to help reduce the overwhelm
 
 
 ### [BONUS] Interactive Prototype
+
+## To be completed: 
 
 ## Schema 
 
